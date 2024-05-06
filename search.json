@@ -1,0 +1,302 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Innføring i Markdown for UiO",
+    "section": "",
+    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "innledning.html",
+    "href": "innledning.html",
+    "title": "1  Innledning",
+    "section": "",
+    "text": "1.1 Hva er markdown?\nMarkdown er et enkelt system for å formatere rentekst. Rentekst er digital tekst i enklest mulig form - slik man kunne se på dataskjermer før Apple og Windows sine virtuelle skrivebord med grafiske brukergrensesnitt og klikk-og-pek kom på markedet. Rentekst kan lese av alle tekstprogrammer på alle datamaskiner, inkludert nettbrett og mobiltelefoner, og slike tekstprogrammer er gjerne gratis og tar svært liten plass. Rentekst-filer er også veldig små, siden de ikke inneholder noen annen informasjon enn bokstaver. Derfor er rentekst et veldig mobilt, fleksibelt og ikke minst billig tekstformat. Du produserer råtekst, bare inndelt i avsnitt: Det er ingen distraksjoner i skriveprosessen.\nImidlertid ønsker man jo som regel et eller annet grafisk design på teksten - overskrifter, avsnitt, kursiv, sentrering, osv. - for å gjøre den tiltalende og ryddig å lese. Det er her Markdown kommer inn som et alternativ til tekstbehandlingsprogrammer som Word. Markdown er rett og slett et enkelt sett med tegn og regler som man legger til helt vanlig tekst for å produsere elegante dokumenter, nettsider, lysbilder og elektroniske bøker. Med en helt kort kommando kan du fra én og samme rentekst-fil produsere et pent pdf-dokument, en ryddig nettside eller et Word-dokument som du eller andre kan jobbe videre med, hvis det er påkrevd. Denne elektroniske boken er for eksempel skrevet i markdown. Det er en billig, effektiv og veldig fleksibel måte å skrive alt fra notater til akademiske artikler og bøker. Og det er svært godt tilpasset en digitalisert tekst-verden, hvor vi hver dag jobber med digitale data og bruker en rekke ulike typer maskinvare og programmer for å lese tekst (PCer, nettbrett, mobiltelefoner, nettsider, Word-dokumenter, pdf-filer, PowerPoint-presentasjoner etc.). Når man skriver i markdown, bruker man enkle, raske tekstprogrammer som Notepad, hvor man skriver inn rå tekst og markerer enkel formattering, for eksempel fete typer, kursiv eller",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Innledning</span>"
+    ]
+  },
+  {
+    "objectID": "innledning.html#overskrifter",
+    "href": "innledning.html#overskrifter",
+    "title": "1  Innledning",
+    "section": "overskrifter",
+    "text": "overskrifter\nLa meg illustrere poenget ved å vise hvordan den siste setningen over ser ut som rentekst:\nNår man skriver i markdown, bruker man enkle,\nraske tekstprogrammer som Notepad, hvor man skriver\ninn rå tekst og markerer enkel formattering som \n**fete typer**, *kursiv* eller ## overskrifter.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Innledning</span>"
+    ]
+  },
+  {
+    "objectID": "innledning.html#hvorfor-bruke-markdown",
+    "href": "innledning.html#hvorfor-bruke-markdown",
+    "title": "1  Innledning",
+    "section": "1.2 Hvorfor bruke markdown?",
+    "text": "1.2 Hvorfor bruke markdown?\nDet er mange grunner til at flere og flere akademikere har begynt å interessere seg for markdown. Her er noen som burde interessere alle:\n\nDet er få eller ingen distraksjoner når du skriver i markdown. Det er lettere å konsentrere seg kun om innholdet i teksten, og så kan du utsette innpakningen til senere med enkle grep.\nMarkdown er et mobilt format: Samme tekst kan enkelt brukes i ulike medier og presentasjonsformer (dokumenter, lysbilder, nettsider). Du vil alltid ha en “grunntekst” i et filformat som kan leses av all slags programvare.\nTeksten din varer “evig”. Rentekst har eksistert siden datamaskinens fødsel, og vil aldri forsvinne eller blir foreldet. Dokumenter skrevet i rentekst i 1970 kan uten problemer leses nå og i all framtid.\nRentekst er solidarisk - den kan produseres og leses på de enkleste datamaskiner, med gratis programvare. Det finnes ingen mer tiltalende måte å dele akademisk kunnskap på.\n\nI og med at de fleste av oss nå gjør mesteparten av jobben vår foran en datamaskin, er disse punktene ganske viktige. Det er verdt å sitere en artikkel om Markdown på nettstedet Programming Historian her:\n\nÅ skrive, lagre og hente dokumenter er sentrale aktiviteter i humanistisk forskning. Likevel baserer mange forfattere praksisen sin på proprietære verktøy og formater som av og til ikke oppfyller de mest grunnleggende kravene til vitenskapelig skriving. Kanskje kan du kjenne deg igjen i frustrasjonen over skjørheten til fotnoter, bibliografier, figurer og bokutkast skrevet i Microsoft Word eller Google Docs.\n\nDersom du har litt interesse for datamaskiner og programvare, og til og med kunne tenke deg å snuse på hva programmering er, så finnes det flere grunner:\n\nGjennom å skrive i markdown-format forstår du mer av hvordan programvare og maskinvare virker, og du kommer deg ut av Microsoft- og Google-boblen og inn i et levende, fargerikt landskap av digitalhumaniora.\nDu frigjør deg fra Microsoft Word, et program som omgjør teksten din til et komplisert filformat med mengder av unødvendig informasjon og blander seg inn i teksten din med automatiske språk- og rettskrivingskontroller som er knotete å skru av og på. Hvem har vel ikke opplevd å få hele sideoppsettet rotet til fordi man skulle sette inn et enkelt lite bilde i et Word-dokument?\nDu får full kontroll over hvordan teksten din skal se ut - og du vil få en følelse av større kontroll over verktøyet ditt, altså datamaskinen og programvaren som følger med den.\nKode (for eksempel Python og R, begge mye brukt av samfunnsvitere og humanister) skrives med rentekst, og med bruk av redigeringsprogrammer for rentekst. Gjennom å produsere vitenskapelig tekst med rentekst gjør du deg bedre kjent med konvensjoner og programvare som vil gjøre det enklere for deg å lære deg koding.\n\nHvis dette så langt virker tiltalende, er det god grunn til å lese videre. I dette lille kurset vil du lære alt fra hvordan du oppretter og lagrer et markdown-dokument til hvordan du kan produsere elegante artikkelmanuskripter, publisere pene e-bøker selv eller konstruere ryddige nettsider. Som en ekstra bonus vil du sannsynligvis også tilegne deg en systematisk og ryddig måte å organisere filene dine på, som er en stor verdi i seg selv.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Innledning</span>"
+    ]
+  },
+  {
+    "objectID": "innledning.html#videre-lesning",
+    "href": "innledning.html#videre-lesning",
+    "title": "1  Innledning",
+    "section": "1.3 Videre lesning",
+    "text": "1.3 Videre lesning\n\nDennis Tenen and Grant Wythoff: Sustainable Authorship in Plain Text using Pandoc and Markdown, programminghistorian.org, 2022",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Innledning</span>"
+    ]
+  },
+  {
+    "objectID": "kap01.html",
+    "href": "kap01.html",
+    "title": "2  Kapittel 1: Bli kjent med redskapene dine",
+    "section": "",
+    "text": "2.1 Forberedelser\nGå inn i filutforskeren din og opprett en mappe med navnet markdownkurs enten i OneDrive-området ditt eller hjemmeområdet på UiOs server (M:). Opprett deretter en undermappe med navn kap01. Her skal du lagre dokumentene og andre filer du oppretter mens du jobber deg gjennom dette kapittelet.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Kapittel 1: Bli kjent med redskapene dine</span>"
+    ]
+  },
+  {
+    "objectID": "kap01.html#den-tekstlige-treenighet",
+    "href": "kap01.html#den-tekstlige-treenighet",
+    "title": "2  Kapittel 1: Bli kjent med redskapene dine",
+    "section": "2.2 Den tekstlige treenighet",
+    "text": "2.2 Den tekstlige treenighet\nVi trenger ett program for å skrive markdown-tekster, og så trenger vi to andre programmer for å omgjøre markdown-tekstene våre til ulike formater (som pdf, html, docx etc.) Til sammen lager disse programmene magi! Vi bruker tekstredigereren Visual Studio Code (VSCode) for å skrive, Pandoc for å omgjøre tekstene våre til ulike type filer, og kommandolinjen for å gi beskjeder til Pandoc. Kommandolinjen finnes allerede på alle datamaskiner, og de to andre programmene er gratis. Jeg skal presentere dem skikkelig etter tur, men først sørger vi for at vi har alle.\n\n2.2.1 Kommandolinjen\nKommandolinjen finner du på Windows ved å søke etter “Powershell” i søkevinduet nede til venstre. Det er lurt å høyreklikke og legge snarveien ned i oppgavelinjen, så det er enkelt tilgjengelig senere. På MacOS-maskiner … Linux-brukere åpner terminalen. Da har vi kommandolinjen klar!\n\n\n2.2.2 Visual Studio Code\nDu kan laste ned og installere VSCode fra UiOs Software Center. Hvis du ikke har brukt Software Center før, så finner du det ved å søke etter det i søkeboksen nede til venstre i Windows-skrivebordet. VSCode blir lastet ned og installert bare du dobbeltklikker på ikonet. VSCode er tekstredigeringsprogrammet vi skal bruke i hele dette kurset. Det finnes mange liknende programmer, som alle er gratis. Hvis du er kjent med tekstredigeringsprogrammer fra før og har en annen favoritt du heller vil bruke, er det selvsagt helt uproblematisk. Men skjermbildene jeg illustrerer med utover i boken er hentet fra VSCode.\n\n\n2.2.3 Pandoc\nPandoc laster du ned fra https://pandoc.org/installing.html. Klikk på boksen “Download the latest installer”. Da kommer du til en nettside som ser litt skremmende ut hvis man ikke er vant til åpen programvare. Men frykt ikke! Her er instruksjoner for de tre operativsystemene ved UiO: - Windows: Finn filen som slutter med “x86_64.msi” og last den ned. Når du dobbeltklikker på filen i Utforsker/Explorer, så vil programmet installere seg selv. - MacOS: Finn filen som slutter med “x86_64-macOS.pkg” og last den ned. Når du dobbeltklikker på filen i Finder, så vil programmet installere seg selv. - Linux: De fleste Linux-distribusjoner har Pandoc inkludert, så du trenger ikke å gjøre noe.\n\n\n2.2.4 Til sist: en “pdf-motor”\nFor å kunne generere pdf-dokumenter med Pandoc, må du ha en “pdf-motor” (pdf engine) installert på maskinen. Det finnes flere slike. Vi skal bruke MikTex.\n\nGå til den offisielle nedlastingssiden og trykk på “Download” under fanen Windows/Installer\nÅpne filen\nAksepter betingelsene, godta alle alternativene dialogboksen foreslår\nVent. Det kan ta noen minutter å laste ned og installere alt, avhengig av båndbredden på nettet.\nNår installasjonen er ferdig og du har trykket “Next”, vil programmet spørre deg om det skal se etter opppdateringer. Svar ja, og installer alt Miktex foreslår. Dette kan også ta litt tid\nDu får ikke noen egen beskjed om at oppdateringen er ferdig - kanskje bare en melding om at MikTex-konsollen må lukkes. Klikk OK, og du er ferdig.\n\n\n\n2.2.5 Kommandolinjen: Skriv kommandoer istedenfor å peke og klikke\nKommandolinjen er den blanke skjermen som bare oppgir hvor i filsystemet du befinner deg, etterfulgt av en blinkende markør som signaliserer at maskinen venter på en kommando. Dette er den originale måten å kommunisere med datamaskiner på.\n\n\n\nIllustrasjon: skjermbilde av terminal i Powershell og Linux\n\n\nKommandolinjen ser ikke spesielt fancy ut, men den er på ingen måte utdatert og brukes flittig av system-administratorer, programmerere og andre IT-folk. Kommandoene man skriver inn til maskinen utgjør et eget, enkelt kodespråk som er veldig effektivt for filbehandling i stor skala. På Windows-maskiner er dette språket Powershell, og på Linux- og MacOS-maskiner er det Bash. For våre formål er disse to språkene praktisk talt like.1 Man må bruke kommandolinjen for å kommunisere med Pandoc, for det er et program som ikke kommer med noe grafisk brukergrensesnitt (ingen klikk og pek-løsning, altså). Det er egentlig veldig fint, for det gir deg en anledning til å bli kjent med terminalen og kommandoene der, og på den måten bli bedre kjent med PCen din og dempe angsten for å gjøre noe feil. Det er nemlig veldig vanskelig å ødelegge noe i terminalen!\nSå la oss hoppe i det. Åpne filutforskeren din og gå til mappen “markdownkurs”, som du opprettet som en del av forberedelsene til dette kapitlet. Høyreklikk et sted i mappen, og velg “open in terminal” fra menyen. Nå har du åpnet terminalen, og du befinner deg i mappen “markdownkurs”. La oss leke oss litt her for å bli vant til terminalen. Begynn med å skrive inn “cd ..”. Dette står for “change directory”, og mellomrommet og de to punktumene betyr at du gir maskinen beskjed om å hoppe et nivå opp i filsystemet. Prøv nå å skrive “ls”. Det står for “list” og gir deg en liste over hvilke filer og mapper som finnes der du er nå. Blant mappene vil du se “markdownkurs”. Hvis du nå skriver “cd markdownkurs” gir du maskinen beskjed om å ta deg til mappen “markdownkurs”. Nå er vi tilbake der vi begynte. Du ser at det vi gjør her er akkurat som når vi klikker og peker i filutforskeren, bare at her bruker vi tekstkommandoer istedenfor å klikke på bilder av mapper. Det er en haug av ting du kan få gjort med kommandolinjen, men det er ingen vits i å gå inn på dem her. Det vi skal gjøre nå, er å bruke terminalen til å lage en ny, tom markdownfil og samtidig åpne VSCode for å redigere den filen.\n\n\n2.2.6 VSCode: Lag ditt første markdown-dokument\nFor å åpne VSCode fra kommandolinjen, trenger du bare å skrive code og trykke Enter. Men vi skal gjøre det enda mer effektivt. Du kan nemlig åpne VSCode og opprette et markdown-dokument samtidig. Det gjør det ved å skrive code første_dokument.md (du kan selvfølgelig velge et annet navn, men det er viktig at det slutter på .md). Nå åpner datamaskinen VSCode med den nye markdown-filen du skal skrive. Du kan selvsagt også åpne VSCode fra filutforskeren i Windows/MacOS, slik som du pleier å åpne programmer. Men kommandolinjen er en effektiv måte å åpne både programmet og en ny fil på samtidig, og så er det fint å bli vant til å bruke den.\nOK, da går vi i gang med å lage et lite dokument som viser fram hvordan Markdown fungerer når du skal formatere tekst. Det er snakk om enkle tegn og beskjeder som vil tolkes av Pandoc når vi skal konvertere til et annet filformat.\nVi begynner med å skrive et lite “forord”, en YAML-overskrift, som inneholder tittelen på dokumentet og annen informasjon om det. Vi skal lære mer om dette forordet og YAML senere. Nå trenger du bare å skrive følgende - nøyaktig slik som du ser her (men med din egen overskrift og navn, selvsagt):\n---\ntitle: Mitt første Markdown-dokument\nauthor: Jacob Høigilt\ndate: 18. februar 2024\n---\nDette lille “forordet” til dokumentet ditt er viktig, siden informasjonen der vil reflekteres i det ferdige produktet, enten du nå velger å realisere teksten som et Word-dokument, i html- eller pdf-format.\nTrykk Enter for å få en tom linje mellom forordet og resten av dokument, og prøv nå å skrive en liten tekst med et par overskrifter og litt formatering. Her er et eksempel som du kan reprodusere hvis du ikke føler kreativiteten strømme på:\n# Innledning\n\nMarkdown er et nyttig format for akademikere som vil ha full kontroll over sin egen tekst og hvordan den reproduseres.\n\n# Eksempler på Markdown-formatering\n\n## Kursiv\nFor å få kursiv bruker vi *asterisk* før og etter teksten vi ønsker i kursiv.\n\n## Fet skrift\nFor å få fet skrift bruker vi **to asterisker** før og etter teksten vi ønsker i fete typer.\n\n## Tabeller\n\nDu kan lage enkle tabeller i Markdown på følgende måte:\n\n| Frukt | Antall | Kvalitet |\n|-------|--------|----------|\n| Banan | 5      | God      |\n| Eple  | 3      | Dårlig   |\n| Pære  | 2      | God      |\n\nOver er et eksempel på en enkel tabell.\n\nDet var det! Da har du ditt første dokument klart. Nå må vi bare lagre det. Det kan du gjøre hvordan du vil. I de aller fleste skriveprogrammer er snarveien ctrl+S. Da vil den nåværende versjonen av filen lagres med det navnet den allerede har fått.\n\n\n2.2.7 Pandoc: Tekstkonverterings-maskinen\nNå er det tid for å omsette dokumentet ditt i en eller annen form som kan publiseres - og det er typisk sett enten i word-format, som nettside eller som et pdf-dokument. Vi skal prøve alle tre etter tur.\nTeksten du har skrevet er som tidligere nevnt råtekst, helt uten formatering eller grafisk pynt. Når man skriver korte notater til seg selv trenger man gjerne ikke noe mer enn slik råtekst, men så snart du vil vise teksten til andre vil du jo ønske å ha den i et pent og ryddig format.\nDet er her Pandoc kommer inn. Pandoc er et program som omformer din Markdown-tekst til forskjellige velkjente formater. På denne måten vil du alltid ha en “grunntekst” som du kan bruke og gjenbruke i forskjellige tekster og forskjellige formater med enkel klipp-og-lim, og så kan Pandoc realisere teksten i ulike grafiske former.\nPandoc er et kommandolinje-program, så nå skal vi tilbake i kommandolinjen. Bruk Alt+Tab for å komme deg tilbake til kommandolinje-vinduet. (Dersom du var litt rask og lukket kommandolinjen tidligere, så navigerer du bare til undermappen “kap01” i mappen “markdownkurs”, som vi opprettet til å begynne med. Høyreklikk og velg “åpne powershell” eller den engelske ekvivalenten, alt etter hvilket språk du har Windows på.)\nPandoc er allerede installert, så det er klart til å brukes. I kommandolinjen starter man gjerne med å si fra hviklet program man vil snakke med. Kommandoen du nå skal skrive inn ser slik ut:\npandoc første_dokument.md -o første_dokument.docx\nOversatt fra kommandolinjespråket betyr dette noe sånt som: “Pandoc! Jeg vil at du skal ta filen første_dokument.md, omforme den og produsere den som en Word-fil med navn første_dokument.docx” (-o her står for “output”).\nNå trykker du Enter. Hvis det ikke skjer noe annet enn at du får en ny linje og blinkende markør i kommandolinjen har alt gått etter planen. Dataspråk er økonomisk og rapporterer vanligvis ikke dersom alt går som det skal - no news is good news. Men noe har skjedd! Hvis du nå skriver ls i kommandolinjen, altså kommandoen for å se hvilke filer som finnes i mappen, så vil du se en ny fil: første_dokument.docx. Du kan se det samme hvis du bruker filutforskeren i Windows. Gjør det, og dobbeltklikk på filen. Hva skjer? …Stilig, ikke sant?\nDet er veldig enkelt å få Pandoc til å omforme Markdown-teksten vår til andre formater også, så la oss gjøre det med én gang. I samme slengen kan jeg illustrere en av de store fordelene med å bruke Powershell eller Bash.\nLa oss si at vi ønsker å lage en pdf-versjon av dokumentet, slik at du kan printe den ut og stolt vise til familien din at du er en ekspert på rentekst. Det eneste vi trenger å endre i kommandoen er da filbetegnelsen, fra .docx til .pdf, slik:\npandoc første_dokument.md -o første_dokument.pdf\nPowershell og Bash husker kommandoer langt tilbake i tid, så det eneste du trenger å gjøre i terminalen er å trykk piltast opp. Da kommer forrige kommando til syne. Du visker enkelt og greit ut docx og erstatter dem med pdf. Så trykker du Enter igjen. Voilà! Du kan nå åpne pdf-filen fra filutforskeren i ditt pdf-program (på UiO-maskiner er det stort sett Adobe Acrobat).\nPå nøyaktig samme måte kan du lage en nettside-fil (.html). Disse filene åpnes automatisk i nettleseren din når du dobbeltklikker på dem. Nettsiden du får opp ser ganske enkel og stusslig ut, men vi kommer snart til måter å gjøre slike sider penere.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Kapittel 1: Bli kjent med redskapene dine</span>"
+    ]
+  },
+  {
+    "objectID": "kap01.html#footnotes",
+    "href": "kap01.html#footnotes",
+    "title": "2  Kapittel 1: Bli kjent med redskapene dine",
+    "section": "",
+    "text": "Hvis du vil lære deg mer om terminalen og Bash, så finnes det et fint nettkurs om det gjennom Carpentry på UiO, her↩︎",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Kapittel 1: Bli kjent med redskapene dine</span>"
+    ]
+  },
+  {
+    "objectID": "kap02lenkerfotnoter.html",
+    "href": "kap02lenkerfotnoter.html",
+    "title": "3  Kapittel 2: Bilder, lenker og fotnoter",
+    "section": "",
+    "text": "3.1 Innsetting og enkel formattering av bilder\nMan kan ikke lime inn bilder i et markdown-dokument slik man gjør i Word. Markdown er et tekst-format som ikke tillater noe annet enn ren tekst. Derfor må vi gi datamaskinen beskjed om hvor bildene er, og så henter den dem og putter dem inn i dokumentet når vi produserer det som et word-dokument, et pdf-dokument eller en nettside. Derfor må vi også ha bildefilene tilgjengelige på maskinen og vite hvor de er. Dette er en mindre intuitiv måte å legge til bilder i en tekst på, men den gir til gjengjeld bedre oversikt og kontroll over dokumentet, og det blir også lettere gjenbrukbart fordi du har alle råmaterialene - bildefilene - lagret for seg selv, i sitt eget filformat, istedenfor at de er bygget inn i en Word-fil på måter ingen vanlige dødelige skjønner noe av.\nDen greieste måten å ha kontroll på hvor bildene du skal bruke befinner seg, er å lage en mappe til dem. Det er opp til deg hvordan du ønsker å organisere markdownkurs-mappen din, men her er et forslag: Opprett en mappe under markdownkurs med navn bilder, og lag så en ny mappe under der igjen med navn kap02. Da er bildene lagret i en egen mappe som korrespondere med navnet til tekstfilen du jobber i. Du kan selvfølgelig bruke filutforskeren til dette, men hvorfor ikke åpne Powershell/Bash i mappen markdownkurs og skrive følgende kommandoer (trykk Enter etter hver kommando):\nNå er det bare å flytte eller kopiere de bildene du ønsker å bruke i dokumentet inn i mappen. Bruk filutforskeren til dette for enkelhets skyld, med mindre du har lyst til å eksperimentere i kommandolinjen. Gi bildefilene enkle navn, uten mellomrom eller store bokstaver. Her er min bildefil for dette kapittelet:\n[Putt inn screenshot fra filutforsker når jeg har lagt inn bildefiler]\nDa setter vi inn bildene! Bildet vil puttes inn i teksten på nøyaktig det stedet du skriver lenken til bildefilen, og det vil tilpasses rammene i dokumentet automatisk hvis det er stort. Her kommer et eksempel. Bildet under satte jeg inn med følgende kommando:\n![markdownlogo](bilder/kap02/markdownlogo.jpg)\nAltså: Utropstegn, hakeparentes med alternativ kommentar (vises ikke i ferdig dokument), parentes med filnavnet (inkludert sti: bilder/kap02/). Stien forteller PCen at den finner bildet i mappen “kap02”, som igjen befinner seg i mappen “bilder”. Hvis du ikke har skrevet stien riktig, finner ikke PCen bildet, og du får en feilmelding.  Eksempelbilde: Markdown-logoen\nBildeteksten laget jeg simpelthen ved å skrive *Eksempelbilde: Markdown-logoen* på linjen under lenken til bildet. Da er det på tide å få dette inn i fingrene! Sett inn de bildene du samlet på forhånd på passende steder i den lille teksten din. Du kan også gjerne eksperimentere litt med å lage mellomrom for å skape luft mellom bilder og tekst. Prøv med Enter-tasten og med dette tegnet \\, som er et signal om linjeskift. Flere slike tegn under hverandre skaper like mange tomme linjer. Hva gir den ønskede effekten - Enter eller \\?\nVi skal lære om å endre størrelsen på bilder senere, i kapittel 4 om presentasjoner. Her vil jeg bare nevne at Pandoc sørger for å tilpasse bildet til rammene i formatet du vil bruke for teksten din.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Kapittel 2: Bilder, lenker og fotnoter</span>"
+    ]
+  },
+  {
+    "objectID": "kap02lenkerfotnoter.html#innsetting-og-enkel-formattering-av-bilder",
+    "href": "kap02lenkerfotnoter.html#innsetting-og-enkel-formattering-av-bilder",
+    "title": "3  Kapittel 2: Bilder, lenker og fotnoter",
+    "section": "",
+    "text": "mkdir bilder\ncd bilder\nmkdir kap02",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Kapittel 2: Bilder, lenker og fotnoter</span>"
+    ]
+  },
+  {
+    "objectID": "kap02lenkerfotnoter.html#hyperlenker",
+    "href": "kap02lenkerfotnoter.html#hyperlenker",
+    "title": "3  Kapittel 2: Bilder, lenker og fotnoter",
+    "section": "3.2 Hyperlenker",
+    "text": "3.2 Hyperlenker\nDisse er som bildelenker, men enda enklere - så enkle at de knapt trenger sin egen overskrift. Hvis jeg vil lenke til den glimrende nettsiden for digitalhumaniora, “The Programming Historian”, gjør jeg slik:\n[The Programming Historian](https://programminghistorian.org/en/)\nLenken ser slik ut:\nThe Programming Historian",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Kapittel 2: Bilder, lenker og fotnoter</span>"
+    ]
+  },
+  {
+    "objectID": "kap02lenkerfotnoter.html#fotnoter",
+    "href": "kap02lenkerfotnoter.html#fotnoter",
+    "title": "3  Kapittel 2: Bilder, lenker og fotnoter",
+    "section": "3.3 Fotnoter",
+    "text": "3.3 Fotnoter\nVi skal ta en skikkelig gjennomgang av akademiske referanser i neste del, men det er også greit å kjenne til teknikken for å skrive enkle, nummererte og klikkbare fotnoter. Prøv det med én gang: Sett markøren der du vil ha fotnote-referansen. Du skriver inn fotnoten slik: ^[Dette er en fotnote i markdown-format.] 1 Nå har du en fotnote! La oss lage en til, for å sjekke at de blir nummerert riktig. Finn et annet sted å sette markøren, og skriv ^[Dette er også en fotnote. Nå har jeg to.] 2\nSom du ser, skriver man inn teksten i fotnoten som en del av brødteksten, og så blir den omformet til en fotnote når vi bruker Pandoc til å omforme filen.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Kapittel 2: Bilder, lenker og fotnoter</span>"
+    ]
+  },
+  {
+    "objectID": "kap02lenkerfotnoter.html#footnotes",
+    "href": "kap02lenkerfotnoter.html#footnotes",
+    "title": "3  Kapittel 2: Bilder, lenker og fotnoter",
+    "section": "",
+    "text": "Dette er en fotnote i markdown-format.↩︎\nDette er også en fotnote. Nå har jeg to.↩︎",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Kapittel 2: Bilder, lenker og fotnoter</span>"
+    ]
+  },
+  {
+    "objectID": "kap03zotero.html",
+    "href": "kap03zotero.html",
+    "title": "4  3 Referanser og referanseverktøy",
+    "section": "",
+    "text": "4.1 Forberedelser",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>3 Referanser og referanseverktøy</span>"
+    ]
+  },
+  {
+    "objectID": "kap03zotero.html#forberedelser",
+    "href": "kap03zotero.html#forberedelser",
+    "title": "4  3 Referanser og referanseverktøy",
+    "section": "",
+    "text": "Last ned og installér Zotero. Installer også Zotero-tillegget for nettleseren din (Firefox, Chrome, Edge og Safari støttes)\nLast ned og installér Better Bibtex Zotero-tillegget fra Retorque - følg installasjonsinstruksjonene slavisk og bruk standardinnstillingene.\nOpprett en mappe med navn “kap03” under mappen “markdownkurs”.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>3 Referanser og referanseverktøy</span>"
+    ]
+  },
+  {
+    "objectID": "kap03zotero.html#opprette-en-tekstfil.",
+    "href": "kap03zotero.html#opprette-en-tekstfil.",
+    "title": "4  3 Referanser og referanseverktøy",
+    "section": "4.2 Opprette en tekstfil.",
+    "text": "4.2 Opprette en tekstfil.\nVi starter med å opprette en .md-fil, for eksempel zoterotutorial.md. Inkludér følgende elementer i YAML-hodet:\n---\ntittel: din tittel\nforfatter: deg\nbibliografi: la dette elementet være tomt foreløpig, vi skal spesifisere det senere\n---\nSkriv noen setninger slik at du har noe tekst der du kan sette inn referanser.\nOK. Da skal vi først omgjøre Zotero-referansene dine til rentekst-referanser og sende dem til mappen “kap03”. Det gjør vi fra Zotero.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>3 Referanser og referanseverktøy</span>"
+    ]
+  },
+  {
+    "objectID": "kap03zotero.html#hvordan-eksportere-zotero-biblioteket-til-filmappen-med-din-tekst",
+    "href": "kap03zotero.html#hvordan-eksportere-zotero-biblioteket-til-filmappen-med-din-tekst",
+    "title": "4  3 Referanser og referanseverktøy",
+    "section": "4.3 Hvordan eksportere Zotero-biblioteket til filmappen med din tekst",
+    "text": "4.3 Hvordan eksportere Zotero-biblioteket til filmappen med din tekst\nFørst: Sørg for at du har klart for deg hvor i filsystemet filen zoterotutorial.md er: Du skal ha lagret den i mappen “kap03”.\nÅpne deretter Zotero. Hvis du har et bibliotek allerede, bra. Hvis ikke, lag et lite bibliotek nå bare for å øve deg. Gå til en hvilken som helst vitenskapelig database (for eksempel Google Scholar eller Oria gjennom UB) og velg boken/artikkelen du vil ha. Klikk deretter på bok-/artikkelikonet øverst til høyre i nettleseren din. Zotero-tillegget eksporterer nå referansen til biblioteket ditt. Etter at du har samlet nok referanser til å ha et lite bibliotek, skal du høyreklikke på biblioteket ditt i Zotero og velge “eksporter bibliotek.”\n(Hvis du har et stort bibliotek, vil du sannsynligvis bare eksportere en del av det, noe du kan gjøre ved å høyreklikke på den relevante mappen og velge “eksporter samling”.)\n\nVelg Better Bibtex i rullegardinmenyen.\nHvis dette er et pågående prosjekt, og du vet at Zotero-biblioteket ditt sannsynligvis vil utvide seg, velg “eksporter i bakgrunnen” og “hold oppdatert” alternativene. Dette sikrer at Zotero sender en oppdatert bibliografi til prosjektmappen din hver gang du gjør endringer.\nNå kommer delen hvor du velger hvor du skal eksportere filen. Velg den eksakte mappen hvor den nye .md-filen din er plassert.\nDu har nå en .bib-fil som har samme filnavn som navnet på Zotero-samlingen du eksporterte. Sjekk om den er på rett sted.\n\nHva har vi egentlig gjort her? Zotero lagrer referanser i et format som enkelt kan eksporteres til rentekst, samtidig som alle metadata (forfatter, årstall, tittel, etc.) beholdes. Dette formatet, .bib, gjenkjennes av mange ulike programmer. Pandoc har en “siteringsmaskin”, en såkalt “citeproc”, som leser slike .bib-filer og kan formatere innholdet på en slik måte at man får ut ferdige, vitenskapelige bibliografier og referanser, enten det er fotnoter eller parenteser. .bib-filen vi nettopp eksporterte fra Zotero til arbeidsmappen din inneholder råmaterialet som Pandoc senere skal prosessere og lage fine referanser av.\nMen først må vi gi beskjed om hvor i teksten vi vil sette inn referansene! Det kommer nå.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>3 Referanser og referanseverktøy</span>"
+    ]
+  },
+  {
+    "objectID": "kap03zotero.html#sette-inn-bedre-bibtex-referanser-i-markdown",
+    "href": "kap03zotero.html#sette-inn-bedre-bibtex-referanser-i-markdown",
+    "title": "4  3 Referanser og referanseverktøy",
+    "section": "4.4 Sette inn Bedre Bibtex-referanser i Markdown",
+    "text": "4.4 Sette inn Bedre Bibtex-referanser i Markdown\nLa oss først se på hvordan vi skriver referanser. Du bruker firkantklammer, en krøllalfa og deretter referansenøkkelen fra Zotero (gå til Zotero og kopier referansenøkkelen du vil prøve). For demonstrasjonens skyld har jeg inkludert et avsnitt fra en artikkel jeg skrev nylig. Her er det:\nVi mangler fortsatt gode forklaringer på fremveksten og funksjonene til CT-er i arabisk diskurs. Selv om litteraturen om CT-er av og til inkluderer Midtøsten og andre ikke-vestlige kontekster og erfaringer, f.eks. [@Butter2014;@Gurpinar2019;@Nefes2019;@Koerber2018], så er det 1900- og 2000-tallets Vest-Europa og USA som tjener som teori-grunnlag for CT-studier. Andre steder og tider måles mot modellen utviklet fra studier av moderne vestlige land og behandles som interessante varianter. I en eksemplarisk selvkritisk kommentar hevder Butter og Knight [@Butter2020b] at nåværende forskning er for fokusert på USA og samtidsperioden, og behandler CT-er altfor ofte som mestringsmekanismer for marginaliserte grupper. Vår forståelse av konspirasjonsdiskursen i det arabiske Midtøsten er i stor grad rammet av for mye anekdotisk bevis og for lite forskning. Den lille mengden forskning om konspirasjonsteorier i den arabiske Midtøsten og Nord-Afrika har ikke holdt tritt med utviklingen i litteraturen de siste 20 årene. Det finnes to monografier om emnet. Den ene heller mer mot paternalistisk polemikk enn forskning [@Pipes1996]. Den andre er seriøs og nyttig, men den behandler den arabiske offentlige sfæren som et atypisk tilfelle og fokuserer bare på etterkrigstiden. Et mer fundamentalt problem er at den ikke undersøker kilder på arabisk og derfor ikke kan gi en fullstendig forståelse av fenomenet [@Gray2010]. Det finnes verdifulle, mindre studier om CT-er i forhold til spesifikke problemstillinger. I tradisjonen med konspirasjonsforskning i kulturstudier bidrar Koerber med en studie av konspirasjon i egyptisk litteratur [@Koerber2018]. De Poli gir en utmerket undersøkelse av hvordan antisemittiske ideer, spesielt de i de fabrikkerte *Sions vises protokoller*, ble injisert i den arabiske offentlige sfæren gjennom fransk-influert katolisisme og senere nazistiske agenter [@DePoli2014]. Andre studier inkluderer konspirasjonsteorier i borgerkrig [@Silverstein2002], ideologisk strid og sekterisme [@Farha2016].\nNår det kompileres til .html-format, vil det se ut som avsnittet nedenfor, og dersom kildene du henviser til finnes i zotero-biblioteket du lastet ned til mappen “kap03”, vil en liste over referanser bli lagt til nederst i dokumentet (ta en titt på slutten av denne teksten for å se det).\nVi mangler fortsatt gode forklaringer på fremveksten og funksjonene til CT-er i arabisk diskurs. Selv om litteraturen om CT-er av og til inkluderer Midtøsten og andre ikke-vestlige kontekster og erfaringer, f.eks. (Butter and Reinkowski 2014; Gürpınar 2019; Nefes 2019; Koerber 2018), så er det 1900- og 2000-tallets Vest-Europa og USA som tjener som teori-grunnlag for CT-studier. Andre steder og tider måles mot modellen utviklet fra studier av moderne vestlige land og behandles som interessante varianter. I en eksemplarisk selvkritisk kommentar hevder Butter og Knight (Butter and Knight 2020) at nåværende forskning er for fokusert på USA og samtidsperioden, og behandler CT-er altfor ofte som mestringsmekanismer for marginaliserte grupper. Vår forståelse av konspirasjonsdiskursen i det arabiske Midtøsten er i stor grad rammet av for mye anekdotisk bevis og for lite forskning. Den lille mengden forskning om konspirasjonsteorier i den arabiske Midtøsten og Nord-Afrika har ikke holdt tritt med utviklingen i litteraturen de siste 20 årene. Det finnes to monografier om emnet. Den ene heller mer mot paternalistisk polemikk enn forskning (Pipes 1996). Den andre er seriøs og nyttig, men den behandler den arabiske offentlige sfæren som et atypisk tilfelle og fokuserer bare på etterkrigstiden. Et mer fundamentalt problem er at den ikke undersøker kilder på arabisk og derfor ikke kan gi en fullstendig forståelse av fenomenet (Gray 2010). Det finnes verdifulle, mindre studier om CT-er i forhold til spesifikke problemstillinger. I tradisjonen med konspirasjonsforskning i kulturstudier bidrar Koerber med en studie av konspirasjon i egyptisk litteratur (Koerber 2018). De Poli gir en utmerket undersøkelse av hvordan antisemittiske ideer, spesielt de i de fabrikkerte Sions vises protokoller, ble injisert i den arabiske offentlige sfæren gjennom fransk-influert katolisisme og senere nazistiske agenter (De Poli 2014). Andre studier inkluderer konspirasjonsteorier i borgerkrig (Silverstein 2002), ideologisk strid og sekterisme (Farha 2016).\n\n\nFor at dette skal fungere i ditt dokument, må du fylle ut bibliografi-feltet i YAML-hodet. Filnavnet på bibliografien i dette eksempelet er konspirasjoner.bib. Du kan sjekke ditt eget filnavn i mappen der du lagret bibliografifilen til. Skriv det fulle filnavnet nøyaktig slik det vises (YAML er følsomt for store og små bokstaver).\nDette YAML-feltet forteller Pandoc at den skal hente referansene du har inkludert i markdown-teksten din fra denne filen.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>3 Referanser og referanseverktøy</span>"
+    ]
+  },
+  {
+    "objectID": "kap03zotero.html#kompilering-av-.html.pdf.docx-filen",
+    "href": "kap03zotero.html#kompilering-av-.html.pdf.docx-filen",
+    "title": "4  3 Referanser og referanseverktøy",
+    "section": "4.5 Kompilering av .html/.pdf/.docx-filen",
+    "text": "4.5 Kompilering av .html/.pdf/.docx-filen\nNå er vi ferdige!\n\nLagre .md-filen din slik at du er sikker på at de siste endringene du gjorde er inkludert.\nÅpne terminalen i samme mappe som .md-filen din og .bib-filene dine er.\nGi Pandoc følgende kommando:\n\npandoc --citeproc filnavnetditt.md -s -o filnavnetditt.html\nPrøv det nå med forskjellige filformater!",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>3 Referanser og referanseverktøy</span>"
+    ]
+  },
+  {
+    "objectID": "kap03zotero.html#velg-mellom-sitatstiler",
+    "href": "kap03zotero.html#velg-mellom-sitatstiler",
+    "title": "4  3 Referanser og referanseverktøy",
+    "section": "4.6 Velg mellom sitatstiler",
+    "text": "4.6 Velg mellom sitatstiler\nDette er ekstremt nyttig. Du kan konvertere referanser og bibliografi til nesten hvilken som helst stil automatisk, bare ved å fortelle programmene du bruker hvilken stil du ønsker. Slike stiler har filnavnet *.css. Jeg limer inn en maskinoversatt seksjon fra Pandocs brukerveiledning:\n\nSitater og referanser kan formateres ved hjelp av hvilken som helst stil som støttes av Citation Style Language (csl), oppført i Zotero Style Repository. Disse filene spesifiseres ved hjelp av –csl alternativet eller csl (eller citation-style) metadatafeltet. Som standard vil pandoc bruke Chicago Manual of Style forfatter-dato format. (Du kan overstyre denne standarden ved å kopiere en CSL-stil etter eget valg til default.csl i brukerdatakatalogen din.) CSL-prosjektet gir ytterligere informasjon om å finne og redigere stiler.\n\nSå hvis du vil spesifisere en sitatstil, laster du ned csl-stilen du ønsker fra Zotero-databasen her og plasserer den i mappen der tekstfilen din er, og deretter inkluderer du den i YAML-hodet:\n---\nbibliography: din .bib-fil\ncsl: digital-scholarship-in-the-humanities.csl\n---\n\n\n\n\nButter, Michael, and Peter Knight, eds. 2020. Routledge Handbook of Conspiracy Theories. 1st Edition. Routledge.\n\n\nButter, Michael, and Maurus Reinkowski. 2014. Conspiracy Theories in the United States and the Middle East: A Comparative Approach. Walter de Gruyter.\n\n\nDe Poli, Barbara. 2014. “The Judeo-Masonic Conspiracy: The Path from the Cemetery of Prague to Arab Anti-Zionist Propaganda.” In Conspiracy Theories in the United States and the Middle East: A Comparative Approach, edited by Michael Butter and Maurus Reinkowski, 251–71. Berlin; Boston: Walter de Gruyter.\n\n\nFarha, Mark. 2016. “Searching for Sectarianism in the Arab Spring: Colonial Conspiracy or Indigenous Instinct?” The Muslim World 106 (1): 8–61. https://doi.org/10.1111/muwo.12137.\n\n\nGray, Matthew. 2010. Conspiracy Theories in the Arab World: Sources and Politics. New York, NY: Routledge.\n\n\nGürpınar, Doğan. 2019. Conspiracy Theories in Turkey: Conspiracy Nation. Routledge.\n\n\nKoerber, Benjamin. 2018. Conspiracy in Modern Egyptian Literature. Edinburgh University Press.\n\n\nNefes, Türkay Salim. 2019. “The Conspiratorial Style in Turkish Politics.” In Conspiracy Theories and the People Who Believe Them, edited by Joseph E. Uscinski, 385–94. New York, NY: Oxford University Press.\n\n\nPipes, Daniel. 1996. The Hidden Hand: Middle East Fears of Conspiracy. Palgrave Macmillan.\n\n\nSilverstein, Paul A. 2002. “An Excess of Truth: Violence, Conspiracy Theorizing and the Algerian Civil War.” Anthropological Quarterly 75 (4): 643–74. https://www.jstor.org/stable/3318165.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>3 Referanser og referanseverktøy</span>"
+    ]
+  },
+  {
+    "objectID": "kap04presentasjoner.html",
+    "href": "kap04presentasjoner.html",
+    "title": "5  Enkle lysbilder med markdown",
+    "section": "",
+    "text": "5.1 Lysbilder i pdf-format med Beamer\nMarkdown egner seg veldig godt til å lage pene, ryddige og enkle presentasjoner. Her skal vi begynne med Beamer-standarden, som kommer fra rentekst-språket Latex og resulterer i en pdf-fil. (For en hyggelig innføring i Beamer og Latex, se Overleaf.com..) På denne måten lager du lysbilde-presentasjoner som du kan åpne med en hvilken som helst pdf-leser, f.eks. Adobe Acrobat. I utgangspunktet trenger du ikke noen flere instruksjoner i YAML-feltet enn det vi allerede har jobbet med. La oss lage et helt kort eksempel, med bare YAML-overskrift, tittelside og ett lysbilde bestående av tekst. Kopiér teksten nedenfor inn i et nytt dokument og lagre det med filnavnet markdown_presentasjon_pdf.md.\nNå åpner du kommandolinjen i kap04-mappen. Følgende kommando omformer .md-filen din til en pdf-presentasjon: pandoc markdown_presentasjon_pdf.md -t beamer -o markdownpresentasjon_pdf.pdf Det er leddet -t beamer som er det essensielle her. Oversatt fra kommandolinje-språk betyr dette noe sånt som: “Pandoc! Formatér filen markdown_presentasjon1.md til beamer-format (-t beamer). Resultatet (”output:” -o) skal kalles markdownpresentasjon1.pdf.” Som nevnt tidligere, så sier ikke Pandoc fra hvis det fungerer fint, bare hvis noe går feil, så hvis det eneste som skjer er at du får en ny blinkende markør, så er det i boks!\nGå nå til kap04-mappen og åpne den nye filen markdownpresentasjon_pdf.pdf. Pent, ikke sant? Legg merke til at de to setningene i lysbildet kommer fram som unummererte punkter. Det er fordi vi brukte “-” foran dem, akkurat slik man lager lister i andre markdown-formater.\nDu skiller mellom lysbildene med overskriftsmarkøren #. Dersom du skriver noe etter # , blir det overskriften på bildet, og dersom du bare skriver # og deretter trykker enter, får du et bilde uten tittel. Eksperimentér litt med å lage flere bilder, og prøv gjerne også å legge inn noen bilder (se syntaks for å legge inn bilder i kapittel 2). Bare husk at du først må lagre bildefilene i mappen kap04, slik at Pandoc finner dem når det skal kompilere pdf-filen din.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Enkle lysbilder med markdown</span>"
+    ]
+  },
+  {
+    "objectID": "kap04presentasjoner.html#lysbilder-i-pdf-format-med-beamer",
+    "href": "kap04presentasjoner.html#lysbilder-i-pdf-format-med-beamer",
+    "title": "5  Enkle lysbilder med markdown",
+    "section": "",
+    "text": "---\ntitle: Markdown for presentasjoner med Beamer\nauthor: Jacob Høigilt\ndate: 12. april 2024\n---\n\n# Beamer-lysbilder med Markdown\n\n- Markdown er lettere å lære enn Latex\n- Likevel kan man lage pdf-presentasjoner med Markdown som er identiske med presentasjoner laget i Latex",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Enkle lysbilder med markdown</span>"
+    ]
+  },
+  {
+    "objectID": "kap04presentasjoner.html#forskjellige-beamer-tema",
+    "href": "kap04presentasjoner.html#forskjellige-beamer-tema",
+    "title": "5  Enkle lysbilder med markdown",
+    "section": "5.2 Forskjellige beamer-tema",
+    "text": "5.2 Forskjellige beamer-tema\nDet kan jo være du ikke helt likte layouten og estetikken i presentasjonen du nettopp laget. Beamer-standarden inkluderer heldigvis en hel rekke ulike stiler. De finnes her. Man endrer tema i YAML-overskriften. Åpne markdown_presentasjon1.md igjen, hvis du ikke allerede har den foran deg. Endre YAML-feltet slik:\n\n\n---\ntitle: Markdown for presentasjoner med Beamer\nauthor: Jacob Høigilt\ndate: 12. april 2024\ntheme: \"Bergen\"\n---\n\n\nPrøv nå å kompilere filen igjen (“pandoc markdown_presentasjon_pdf.md -t beamer -o markdownpresentasjon_pdf.pdf”) og se hvordan presentasjonen nå ser ut. Og slik kan du holde på, gjennom alle de 27 temaene som finnes. Det er fort gjort, siden du bare kan bruke pil opp-tasten på kommandolinjen for å gjenta pandoc-kommandoen.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Enkle lysbilder med markdown</span>"
+    ]
+  },
+  {
+    "objectID": "kap04presentasjoner.html#tilpasset-layout-på-lysbildene",
+    "href": "kap04presentasjoner.html#tilpasset-layout-på-lysbildene",
+    "title": "5  Enkle lysbilder med markdown",
+    "section": "5.3 Tilpasset layout på lysbildene",
+    "text": "5.3 Tilpasset layout på lysbildene\nTabeller og lister har vi allerede jobbet med i kapittel 2, og de lages på nøyaktig samme måte for presentasjoner. Men kanskje du har lyst til å dele inn siden i to kolonner, for eksempel for å ha to bilder ved siden av hverandre? Da må du skrive inn markdown-kode som vi ikke har sett før. Sørg først for at du har minst to bilder i mappen “kap04”. Åpne markdowpresentasjon1.md igjen, og legg til følgende under teksten du allerede har (bytt ut navnet på bildefilene med dine egne filnavn):\n# To kolonner med bilder\n\n:::: {.columns}\n\n::: {.column width=\"50%\"}\n![illustrasjon 1](ditt_filnavn)\n:::\n\n::: {.column width=\"50%\"}\n![illustrasjon 2](ditt_filnavn)\n:::\n\n::::\nKjapt om syntaksen her: På linjen etter overskriften bruker vi fire kolon for å si fra at det som nå kommer, skal gjelde helt fram til neste gang vi skriver fire kolon. Deretter følger en markdown-kode som forteller at nå skal tekst/bilder ordnes i kolonner. Så skriver vi tre kolon og parenteser for å definere hver kolonne og hvor mye plass den skal ta på siden - summen skal bli 100 prosent.\nDu kan eksperimentere med dette selv, for eksempel ved å endre den ene kolonnen til 30% og den andre til 70%. Hvis bildene ikke passer inn, kan du endre størrelsen på dem. Da bruker du krøllparenteser til slutt i bildelenken, med anvisning om bredden på bildet: ![illustrasjon 1](ditt_filnavn){width=100} eller et annet tall enn 100 - det er bare å prøve seg fram og se hvor store bildene blir.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Enkle lysbilder med markdown</span>"
+    ]
+  },
+  {
+    "objectID": "kap04presentasjoner.html#lysbilder-i-html-format-åpnes-i-nettlesere",
+    "href": "kap04presentasjoner.html#lysbilder-i-html-format-åpnes-i-nettlesere",
+    "title": "5  Enkle lysbilder med markdown",
+    "section": "5.4 Lysbilder i html-format (åpnes i nettlesere)",
+    "text": "5.4 Lysbilder i html-format (åpnes i nettlesere)\nPersonlig synes jeg ofte det er greit å lage presentasjonene mine i et html-format. Absolutt alle har jo en nettleser, og alle nettlesere kan vise Markdown-presentasjoner omdannet til html med Pandoc. Derfor inkluderer vi dette alternativet her.\nHtml-formatet vi skal bruke her, er åpen kildekode og kalles revealjs - les mer om det her. Det er ikke noe mer hokus pokus enn Beamer-formatet. La oss for enkelhets skyld bruke samme eksempel som over, men vi kan slå sammen bildene, slik at vi får ett uten kolonner og ett med. Åpne en ny fil i VS Code med filnavn markdown_presentasjon_html.md. Kopiér følgende inn i dokumentet og lagre det:\n\n\n---\ntitle: Markdown for presentasjoner med Revealjs\nauthor: Jacob Høigilt\ndate: 12. april 2024\n---\n\n\n\n# Revealjs-lysbilder med Markdown\n\n- Markdown er lettere å lære enn Latex\n- Man kan lage html-presentasjoner med Markdown som er identiske med presentasjoner laget i Latex\n\n# To kolonner med bilder\n\n:::: {.columns}\n\n::: {.column width=\"50%\"}\n![illustrasjon 1](ditt_filnavn)\n:::\n\n::: {.column width=\"50%\"}\n![illustrasjon 2](ditt_filnavn)\n:::\n\n::::\n\nLagre filen. Nå har du laget en presentasjon med tittelside og to bilde. For å kompilere dette til en html-fil, skriver du følgende til Pandoc i kommandolinjen:\npandoc markdown_presentasjon_html.md -t revealjs -s -o markdown_presentasjon_html.html\nDet er viktig å ha med -s i kommandoen. Dette paramateret står for “standalone-fil” og forteller Pandoc at det skal finne riktig grafikk og layout i sitt integrerte revealjs-bibliotek. Du kan jo prøve å ta bort dette parameteret når du kjører kommandoen og se hva som skjer. Du får en html-fil, og så sier jeg ikke mer, prøv selv. Som med tekstdokumenter er det viktig at bildene du vil ha med i presentasjonen ligger i samme mappe som .md-filen.\nTil forskjell fra Beamer-bilder, så kan du ikke kopiere den ferdige html-filen til en helt annen mappe og vise den - da forsvinner bildene, for html-filen er avhengig av å koble til dem hver gang den vises. Html-presentasjonen din må alltid ligge i samme mappe som bildene du bruker i den. Dette gjør html-formatet litt knotete i utgangspunktet. Men i neste kapittel skal vi se på den siste utviklingen i Markdown, hvor det finnes en elegant løsning som gjør html-presentasjoner akkurat like mobile og uavhengige som pdf-presentasjoner.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Enkle lysbilder med markdown</span>"
+    ]
+  },
+  {
+    "objectID": "kap04presentasjoner.html#forskjellige-revealjs-temaer",
+    "href": "kap04presentasjoner.html#forskjellige-revealjs-temaer",
+    "title": "5  Enkle lysbilder med markdown",
+    "section": "5.5 Forskjellige Revealjs-temaer",
+    "text": "5.5 Forskjellige Revealjs-temaer\nAkkurat som med Beamer, så har folkene bak Revealjs laget en hel del forskjellige temaer for lysbildene. Parameteret for dette i YAML-feltet er theme:\ntitle: Markdown for presentasjoner med Revealjs\nauthor: Jacob Høigilt\ndate: 12. april 2024\ntheme: beige\nPå nettsiden til Revealjs finner du en liste over temaene, inkludert forhåndsvisninger. Jeg synes simple fungerer fint.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Enkle lysbilder med markdown</span>"
+    ]
+  },
+  {
+    "objectID": "kap04presentasjoner.html#praktiske-tips",
+    "href": "kap04presentasjoner.html#praktiske-tips",
+    "title": "5  Enkle lysbilder med markdown",
+    "section": "5.6 Praktiske tips",
+    "text": "5.6 Praktiske tips\nNå som du har blitt vant til både Markdown og redigeringsprogrammet VS Code, så finnes det noen tips for å bruke VS Code effektivt.\n\nYAML-snarvei: Når du åpner et tomt dokument, finnes det en snarvei til å skrive et grunnleggende YAML-felt. Trykk Ctrl + mellomrom, så får du opp en meny over snarveier. Klikk på “header”, og vipps, så har du et ferdig YAML-felt du kan fylle ut.\n\nAndre snarveier: Akkurat som i mange andre programmer, finnes det snarveier for å redigere tekst.\n\nCtrl + z: Angre forrige inntasting\nCtrl + c: kopiere merket tekst\nCtrl + v: lim inn tekst du har kopiert\nCtrl + x: slett merket tekst\nCtrl + a: merk all tekst i dokumentet\n\nOrdtellings-verktøy. Dette kan du laste ned fra markedsplassen i VS Code. En haug av folk lager fortløpende nyttige redskaper som andre kan bruke gratis. Trykk Ctrl+Shift+p og skriv inn “extensions”. Klikk, og du blir tatt til et sidevindu hvor du kan søke etter og installere utvidelser. Søk etter “word count”. Jeg har stor nytte av utvidelsen “Markdown & Quarto Word Count” av Yunier Olivera.\nUiO-logo i Beamer: Her må du inkludere Latex-kode i YAML-feltet for å få det til å virke som det skal. Jeg gir bare oppskriften her, siden det fører for langt å begynne å forklare hvordan Latex-kode integreres i Markdown (du kan gjøre research på det selv, det er mange muligheter). I dette eksempelet bruker jeg UiO-logoen uio_full_logo_no_pos.png som finnes her. Vi vil ha logoen nede til høyre, i samsvar med retningslinjene ved UiO. For å gjøre det, inkluderer du følgende to linjer til sist i YAML-feltet:\n\nheader-includes: \n  - \\usepackage{tikz} \n  - \\logo{\\includegraphics[width=.5\\textwidth]{uio_full_logo_no_pos.png}}\nDet er viktig at du har nøyaktig samme innrykk som jeg har her, ellers vil det ikke virke.Dette er en beskjed til Latex-motoren om at du vil bruke grafikkpakken “Tikz”. I denne pakken er det en “logo”-funksjon som automatisk plasserer bildet nede til høyre. Du kan endre på logostørrelsen ved å endre på tallet (.5 her).",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Enkle lysbilder med markdown</span>"
+    ]
+  },
+  {
+    "objectID": "kap05quarto.html",
+    "href": "kap05quarto.html",
+    "title": "6  Markdown for viderekomne: Quarto",
+    "section": "",
+    "text": "6.1 Intro om Quarto",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Markdown for viderekomne: Quarto</span>"
+    ]
+  },
+  {
+    "objectID": "kap05quarto.html#beamer-lysbilder-i-quarto-uio-mal",
+    "href": "kap05quarto.html#beamer-lysbilder-i-quarto-uio-mal",
+    "title": "6  Markdown for viderekomne: Quarto",
+    "section": "6.2 Beamer-lysbilder i Quarto: UiO-mal",
+    "text": "6.2 Beamer-lysbilder i Quarto: UiO-mal\n---\ntitle: Mal for Beamer-presentasjon med UiO-logo i Quarto\nauthor: Jacob Høigilt\ninstitute: Institutt for kulturstudier og orientalske språk, Universitetet i Oslo\ndate: today\nformat:\n    beamer:\n        theme: Bergen\n        #institute: IKOS\n        #aspectratio: 169\n        #logo: uio_full_logo_no_pos.png\n        #titlegraphic: the image for the title slide.png\nheader-includes:\n  - \\usepackage{tikz} \n  - \\logo{\\includegraphics[width=.3\\textwidth]{uio_full_logo_no_pos.png}}\n  \n# Notes to YAML: I can't get the logo option to work - impossible to place and resize the image. So I use latex code within header-includes instead to specify the logo.\n---\n## Første enkle bilde med punkter\n\n-   punkt 1\n-   punkt 2\n\n## Andre enkle bilde med punkter\n\n-   punkt 3\n-   punkt 4\n\n## Bilde med visning punkt for punkt\n\n::: incremental\n-   Her er ett punkt\n-   Og når jeg trykker, kommer det ett til\n:::\n\n## To kolonner ved siden av hverandre\n\n:::: {.columns}\n\n::: {.column width=\"40%\"}\nHer er tekst om et bilde. Teksten er ganske lang, for å vise hvor linjeskiftet kommer når jeg har valgt 40 % bredde på denne kolonnen.\n:::\n\n::: {.column width=\"60%\"}\n![illustrasjonsbilde](bilde-lederteam.jpg \"Title: Her er et bilde\"){width=80%}\n:::\n\n::::",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Markdown for viderekomne: Quarto</span>"
+    ]
+  },
+  {
+    "objectID": "kap05quarto.html#revealjs-lysbilder---uio-mal",
+    "href": "kap05quarto.html#revealjs-lysbilder---uio-mal",
+    "title": "6  Markdown for viderekomne: Quarto",
+    "section": "6.3 Revealjs-lysbilder - UiO-mal",
+    "text": "6.3 Revealjs-lysbilder - UiO-mal\n---\ntitle: Template for Beamer slides with UiO logo in Quarto\nauthor: Jacob Høigilt\ninstitute: Department of Culture Studies and Oriental Languages, University of Oslo\ndate: 1/12/2023\nformat:\n    revealjs:\n        smaller: true\n        scrollable: true\n        # The above to adapt text overflow to slide size globally\n        embed-resources: true\n        theme: simple # see https://quarto.org/docs/presentations/revealjs/ for list of premade themes\n        footer: jacobhoi@uio.no\n        logo: uio_full_logo_no_pos.png\n        css: logo.css #Needed to resize too small logo image\n        # footer: footer text\n      \n---\n## Første enkle bilde med punkter\n\n-   punkt 1\n-   punkt 2\n\n## Andre enkle bilde med punkter\n\n-   punkt 3\n-   punkt 4\n\n## Bilde med visning punkt for punkt\n\n::: incremental\n-   Her er ett punkt\n-   Og når jeg trykker, kommer det ett til\n:::\n\n## To kolonner ved siden av hverandre\n\n:::: {.columns}\n\n::: {.column width=\"40%\"}\nHer er tekst om et bilde. Teksten er ganske lang, for å vise hvor linjeskiftet kommer når jeg har valgt 40 % bredde på denne kolonnen.\n:::\n\n::: {.column width=\"60%\"}\n![illustrasjonsbilde](bilde-lederteam.jpg \"Title: Her er et bilde\"){width=80%}\n:::\n\n::::",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Markdown for viderekomne: Quarto</span>"
+    ]
+  }
+]
