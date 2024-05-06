@@ -1,0 +1,138 @@
+
+
+# Enkle lysbilder med markdown
+
+## Lysbilder i pdf-format med Beamer
+
+Markdown egner seg veldig godt til å lage pene, ryddige og enkle presentasjoner. Her skal vi begynne med Beamer-standarden, som kommer fra rentekst-språket Latex og resulterer i en pdf-fil. (For en hyggelig innføring i Beamer og Latex, se [Overleaf.com.](https://www.overleaf.com/learn/latex/Beamer).) På denne måten lager du lysbilde-presentasjoner som du kan åpne med en hvilken som helst pdf-leser, f.eks. Adobe Acrobat. I utgangspunktet trenger du ikke noen flere instruksjoner i YAML-feltet enn det vi allerede har jobbet med. La oss lage et helt kort eksempel, med bare YAML-overskrift, tittelside og ett lysbilde bestående av tekst. Kopiér teksten nedenfor inn i et nytt dokument og lagre det med filnavnet ```markdown_presentasjon_pdf.md```. 
+
+```
+---
+title: Markdown for presentasjoner med Beamer
+author: Jacob Høigilt
+date: 12. april 2024
+---
+
+# Beamer-lysbilder med Markdown
+
+- Markdown er lettere å lære enn Latex
+- Likevel kan man lage pdf-presentasjoner med Markdown som er identiske med presentasjoner laget i Latex
+```
+
+Nå åpner du kommandolinjen i kap04-mappen. Følgende kommando omformer .md-filen din til en pdf-presentasjon:
+```pandoc markdown_presentasjon_pdf.md -t beamer -o markdownpresentasjon_pdf.pdf```
+Det er leddet ```-t beamer``` som er det essensielle her. Oversatt fra kommandolinje-språk betyr dette noe sånt som: "Pandoc! Formatér filen markdown_presentasjon1.md til beamer-format (-t beamer). Resultatet ("output:" -o) skal kalles markdownpresentasjon1.pdf." Som nevnt tidligere, så sier ikke Pandoc fra hvis det fungerer fint, bare hvis noe går feil, så hvis det eneste som skjer er at du får en ny blinkende markør, så er det i boks!
+
+
+Gå nå til kap04-mappen og åpne den nye filen ```markdownpresentasjon_pdf.pdf```. Pent, ikke sant? Legg merke til at de to setningene i lysbildet kommer fram som unummererte punkter. Det er fordi vi brukte "-" foran dem, akkurat slik man lager lister i andre markdown-formater. 
+
+Du skiller mellom lysbildene med overskriftsmarkøren #. Dersom du skriver noe etter # , blir det overskriften på bildet, og dersom du bare skriver # og deretter trykker enter, får du et bilde uten tittel. Eksperimentér litt med å lage flere bilder, og prøv gjerne også å legge inn noen bilder (se syntaks for å legge inn bilder i kapittel 2). Bare husk at du først må lagre bildefilene i mappen ```kap04```, slik at Pandoc finner dem når det skal kompilere pdf-filen din.
+
+## Forskjellige beamer-tema 
+Det kan jo være du ikke helt likte layouten og estetikken i presentasjonen du nettopp laget. Beamer-standarden inkluderer heldigvis en hel rekke ulike stiler. De finnes [her](https://latex-beamer.com/tutorials/beamer-themes/). Man endrer tema i YAML-overskriften. Åpne markdown_presentasjon1.md igjen, hvis du ikke allerede har den foran deg. Endre YAML-feltet slik:
+
+```
+---
+title: Markdown for presentasjoner med Beamer
+author: Jacob Høigilt
+date: 12. april 2024
+theme: "Bergen"
+---
+```
+
+Prøv nå å kompilere filen igjen ("pandoc markdown_presentasjon_pdf.md -t beamer -o markdownpresentasjon_pdf.pdf") og se hvordan presentasjonen nå ser ut. Og slik kan du holde på, gjennom alle de 27 temaene som finnes. Det er fort gjort, siden du bare kan bruke pil opp-tasten på kommandolinjen for å gjenta pandoc-kommandoen.  
+
+## Tilpasset layout på lysbildene
+Tabeller og lister har vi allerede jobbet med i kapittel 2, og de lages på nøyaktig samme måte for presentasjoner. 
+Men kanskje du har lyst til å dele inn siden i to kolonner, for eksempel for å ha to bilder ved siden av hverandre? Da må du skrive inn markdown-kode som vi ikke har sett før. Sørg først for at du har minst to bilder i mappen "kap04". Åpne markdowpresentasjon1.md igjen, og legg til følgende under teksten du allerede har (bytt ut navnet på bildefilene med dine egne filnavn):
+
+```
+# To kolonner med bilder
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![illustrasjon 1](ditt_filnavn)
+:::
+
+::: {.column width="50%"}
+![illustrasjon 2](ditt_filnavn)
+:::
+
+::::
+```
+Kjapt om syntaksen her: På linjen etter overskriften bruker vi fire kolon for å si fra at det som nå kommer, skal gjelde helt fram til neste gang vi skriver fire kolon. Deretter følger en markdown-kode som forteller at nå skal tekst/bilder ordnes i kolonner. Så skriver vi tre kolon og parenteser for å definere hver kolonne og hvor mye plass den skal ta på siden - summen skal bli 100 prosent. 
+
+Du kan eksperimentere med dette selv, for eksempel ved å endre den ene kolonnen til 30% og den andre til 70%. Hvis bildene ikke passer inn, kan du endre størrelsen på dem. Da bruker du krøllparenteser til slutt i bildelenken, med anvisning om bredden på bildet: ```![illustrasjon 1](ditt_filnavn){width=100}``` eller et annet tall enn 100 - det er bare å prøve seg fram og se hvor store bildene blir.
+
+
+## Lysbilder i html-format (åpnes i nettlesere)
+Personlig synes jeg ofte det er greit å lage presentasjonene mine i et html-format. Absolutt alle har jo en nettleser, og alle nettlesere kan vise Markdown-presentasjoner omdannet til html med Pandoc. Derfor inkluderer vi dette alternativet her. 
+
+Html-formatet vi skal bruke her, er åpen kildekode og kalles revealjs - les mer om det [her](https://revealjs.com/). Det er ikke noe mer hokus pokus enn Beamer-formatet. La oss for enkelhets skyld bruke samme eksempel som over, men vi kan slå sammen bildene, slik at vi får ett uten kolonner og ett med. Åpne en ny fil i VS Code med filnavn ```markdown_presentasjon_html.md```. Kopiér følgende inn i dokumentet og lagre det:
+
+```
+---
+title: Markdown for presentasjoner med Revealjs
+author: Jacob Høigilt
+date: 12. april 2024
+---
+
+# Revealjs-lysbilder med Markdown
+
+- Markdown er lettere å lære enn Latex
+- Man kan lage html-presentasjoner med Markdown som er identiske med presentasjoner laget i Latex
+
+# To kolonner med bilder
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![illustrasjon 1](ditt_filnavn)
+:::
+
+::: {.column width="50%"}
+![illustrasjon 2](ditt_filnavn)
+:::
+
+::::
+
+```
+Lagre filen. Nå har du laget en presentasjon med tittelside og to bilde. For å kompilere dette til en html-fil, skriver du følgende til Pandoc i kommandolinjen:
+```
+pandoc markdown_presentasjon_html.md -t revealjs -s -o markdown_presentasjon_html.html
+```
+Det er viktig å ha med ```-s``` i kommandoen. Dette paramateret står for "standalone-fil" og forteller Pandoc at det skal finne riktig grafikk og layout i sitt integrerte revealjs-bibliotek. Du kan jo prøve å ta bort dette parameteret når du kjører kommandoen og se hva som skjer. Du får en html-fil, og så sier jeg ikke mer, prøv selv.
+Som med tekstdokumenter er det viktig at bildene du vil ha med i presentasjonen ligger i samme mappe som .md-filen. 
+
+Til forskjell fra Beamer-bilder, så kan du ikke kopiere den ferdige html-filen til en helt annen mappe og vise den - da forsvinner bildene, for html-filen er avhengig av å koble til dem hver gang den vises. Html-presentasjonen din må alltid ligge i samme mappe som bildene du bruker i den. Dette gjør html-formatet litt knotete i utgangspunktet. Men i neste kapittel skal vi se på den siste utviklingen i Markdown, hvor det finnes en elegant løsning som gjør html-presentasjoner akkurat like mobile og uavhengige som pdf-presentasjoner.
+
+## Forskjellige Revealjs-temaer
+Akkurat som med Beamer, så har folkene bak Revealjs laget en hel del forskjellige temaer for lysbildene. Parameteret for dette i YAML-feltet er `theme`:
+```
+title: Markdown for presentasjoner med Revealjs
+author: Jacob Høigilt
+date: 12. april 2024
+theme: beige
+```
+På nettsiden til [Revealjs](https://revealjs.com/themes/) finner du en liste over temaene, inkludert forhåndsvisninger. Jeg synes `simple` fungerer fint. 
+
+
+## Praktiske tips
+Nå som du har blitt vant til både Markdown og redigeringsprogrammet VS Code, så finnes det noen tips for å bruke VS Code effektivt. 
+
+- **Snarveier**: Akkurat som i mange andre programmer, finnes det snarveier for å redigere tekst. 
+    - Ctrl + z: Angre forrige inntasting
+    - Ctrl + c: kopiere merket tekst
+    - Ctrl + v: lim inn tekst du har kopiert
+    - Ctrl + x: slett merket tekst
+    - Ctrl + a: merk all tekst i dokumentet
+- **Ordtellings-verktøy**. Dette kan du laste ned fra markedsplassen i VS Code. En haug av folk lager fortløpende nyttige redskaper som andre kan bruke gratis. Trykk Ctrl+Shift+p og skriv inn "extensions". Klikk, og du blir tatt til et sidevindu hvor du kan søke etter og installere utvidelser. Søk etter "word count". Jeg har stor nytte av utvidelsen "Markdown & Quarto Word Count" av Yunier Olivera.
+- **UiO-logo i Beamer**: Her må du inkludere Latex-kode i YAML-feltet for å få det til å virke som det skal. Jeg gir bare oppskriften her, siden det fører for langt å begynne å forklare hvordan Latex-kode integreres i Markdown (du kan gjøre research på det selv, det er mange muligheter). I dette eksempelet bruker jeg UiO-logoen `uio_full_logo_no_pos.png` som finnes [her](https://www.uio.no/om/designmanual/profilelementer/logo/index.html#nedlasting). Vi vil ha logoen nede til høyre, i samsvar med retningslinjene ved UiO. For å gjøre det, inkluderer du følgende to linjer til sist i YAML-feltet:
+```
+header-includes: 
+  - \usepackage{tikz} 
+  - \logo{\includegraphics[width=.5\textwidth]{uio_full_logo_no_pos.png}}
+```
+Det er viktig at du har nøyaktig samme innrykk som jeg har her, ellers vil det ikke virke.Dette er en beskjed til Latex-motoren om at du vil bruke grafikkpakken "Tikz". I denne pakken er det en "logo"-funksjon som automatisk plasserer bildet nede til høyre. Du kan endre på logostørrelsen ved å endre på tallet (.5 her).
+

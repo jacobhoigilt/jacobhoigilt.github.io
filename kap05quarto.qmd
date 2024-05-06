@@ -1,0 +1,109 @@
+# Markdown for viderekomne: Quarto
+
+## Intro om Quarto
+
+## Beamer-lysbilder i Quarto: UiO-mal
+
+```
+---
+title: Mal for Beamer-presentasjon med UiO-logo i Quarto
+author: Jacob Høigilt
+institute: Institutt for kulturstudier og orientalske språk, Universitetet i Oslo
+date: today
+format:
+    beamer:
+        theme: Bergen
+        #institute: IKOS
+        #aspectratio: 169
+        #logo: uio_full_logo_no_pos.png
+        #titlegraphic: the image for the title slide.png
+header-includes:
+  - \usepackage{tikz} 
+  - \logo{\includegraphics[width=.3\textwidth]{uio_full_logo_no_pos.png}}
+  
+# Notes to YAML: I can't get the logo option to work - impossible to place and resize the image. So I use latex code within header-includes instead to specify the logo.
+---
+## Første enkle bilde med punkter
+
+-   punkt 1
+-   punkt 2
+
+## Andre enkle bilde med punkter
+
+-   punkt 3
+-   punkt 4
+
+## Bilde med visning punkt for punkt
+
+::: incremental
+-   Her er ett punkt
+-   Og når jeg trykker, kommer det ett til
+:::
+
+## To kolonner ved siden av hverandre
+
+:::: {.columns}
+
+::: {.column width="40%"}
+Her er tekst om et bilde. Teksten er ganske lang, for å vise hvor linjeskiftet kommer når jeg har valgt 40 % bredde på denne kolonnen.
+:::
+
+::: {.column width="60%"}
+![illustrasjonsbilde](bilde-lederteam.jpg "Title: Her er et bilde"){width=80%}
+:::
+
+::::
+```
+
+## Revealjs-lysbilder - UiO-mal
+
+```
+---
+title: Template for Beamer slides with UiO logo in Quarto
+author: Jacob Høigilt
+institute: Department of Culture Studies and Oriental Languages, University of Oslo
+date: 1/12/2023
+format:
+    revealjs:
+        smaller: true
+        scrollable: true
+        # The above to adapt text overflow to slide size globally
+        embed-resources: true
+        theme: simple # see https://quarto.org/docs/presentations/revealjs/ for list of premade themes
+        footer: jacobhoi@uio.no
+        logo: uio_full_logo_no_pos.png
+        css: logo.css #Needed to resize too small logo image
+        # footer: footer text
+      
+---
+## Første enkle bilde med punkter
+
+-   punkt 1
+-   punkt 2
+
+## Andre enkle bilde med punkter
+
+-   punkt 3
+-   punkt 4
+
+## Bilde med visning punkt for punkt
+
+::: incremental
+-   Her er ett punkt
+-   Og når jeg trykker, kommer det ett til
+:::
+
+## To kolonner ved siden av hverandre
+
+:::: {.columns}
+
+::: {.column width="40%"}
+Her er tekst om et bilde. Teksten er ganske lang, for å vise hvor linjeskiftet kommer når jeg har valgt 40 % bredde på denne kolonnen.
+:::
+
+::: {.column width="60%"}
+![illustrasjonsbilde](bilde-lederteam.jpg "Title: Her er et bilde"){width=80%}
+:::
+
+::::
+```

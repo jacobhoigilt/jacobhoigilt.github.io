@@ -1,0 +1,27 @@
+project:
+  type: book
+
+book:
+  title: "Innføring i Markdown for UiO"
+  author: "Jacob Høigilt"
+  date: today
+  chapters:
+    - index.qmd
+    - innledning.qmd
+    - kap01.qmd
+    - kap02lenkerfotnoter.qmd
+    - kap03zotero.qmd
+    - kap04presentasjoner.qmd
+    - kap05quarto.qmd
+
+bibliography: markdownbok.bib
+
+format:
+  html:
+    theme: cosmo
+    embed-resources: true
+  pdf:
+    documentclass: scrreprt
+
+
+
